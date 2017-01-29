@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.Double?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.shape.Rectangle?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="370.0" prefWidth="248.0" style="-fx-background-color: #9519FF;" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle fill="#7e16d8" height="218.0" layoutY="153.0" stroke="#7514c8" strokeType="OUTSIDE" strokeWidth="5.0" width="234.0" />
+      <Rectangle fill="#7e16d8" height="130.0" stroke="#7514c8" strokeDashOffset="10.0" strokeType="OUTSIDE" strokeWidth="5.0" width="234.0" />
+      <Rectangle fill="#00fefe" height="90.0" layoutX="31.0" layoutY="202.0" rotate="-55.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="4.0" width="90.0" />
+      <Rectangle height="91.0" layoutX="144.0" layoutY="279.0" stroke="#ebebeb" strokeType="OUTSIDE" strokeWidth="3.0" width="96.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0" startX="1.0">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="#6c17b5" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+         <effect>
+            <DropShadow color="#fe9aff" height="64.0" radius="27.4225" width="47.69" />
+         </effect>
+      </Rectangle>
+      <Rectangle fill="#7cfe00" height="20.0" layoutX="46.0" layoutY="244.0" rotate="-55.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="4.0" width="20.0" />
+      <Rectangle fill="#7cfe00" height="20.0" layoutX="68.0" layoutY="213.0" rotate="-55.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="4.0" width="20.0" />
+      <Rectangle fill="#7cfe00" height="16.0" layoutX="59.0" layoutY="247.0" rotate="-55.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="4.0" width="62.0" />
+      <Rectangle fill="#6a17b2" height="15.0" layoutX="133.0" layoutY="-3.0" stroke="#ebebeb" strokeDashOffset="4.0" strokeType="OUTSIDE" strokeWidth="3.0" width="108.0" />
+      <Polygon layoutX="187.0" layoutY="75.0" rotate="180.0" scaleX="1.14" stroke="#ebebeb" strokeType="INSIDE" strokeWidth="3.0">
+        <points>
+          <Double fx:value="-50.0" />
+          <Double fx:value="40.0" />
+          <Double fx:value="50.0" />
+          <Double fx:value="40.0" />
+          <Double fx:value="0.0" />
+          <Double fx:value="-60.0" />
+        </points>
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0" startX="1.0" startY="0.5333333333333333">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="#6c17b5" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+         <effect>
+            <DropShadow color="#fe9aff" height="68.44" radius="33.72" width="68.44" />
+         </effect>
+      </Polygon>
+   </children>
+</Pane>
