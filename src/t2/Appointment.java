@@ -1,4 +1,4 @@
-package sample;
+package t2;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -6,19 +6,18 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-public class Main extends Application {
+public class Appointment extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("/t1/4geometryDash.fxml"));
-        primaryStage.setTitle("Hello World");
-        primaryStage.setScene(new Scene(root, 248, 370));
+        Parent root = FXMLLoader.load(getClass().getResource("/t2/appointment.fxml"));
+        primaryStage.setTitle("Make an appointment");
+        primaryStage.setScene(new Scene(root, 500, 600));
         primaryStage.show();
     }
 
 
     public static void main(String[] args) {
         launch(args);
-        System.out.println("\u2605");
     }
 }
