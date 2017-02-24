@@ -18,7 +18,7 @@
                   <Insets bottom="5.0" />
                </VBox.margin>
             </Label>
-            <TextField>
+            <TextField fx:id="purpose">
                <VBox.margin>
                   <Insets bottom="15.0" />
                </VBox.margin>
@@ -28,7 +28,7 @@
                   <Insets bottom="5.0" />
                </VBox.margin>
             </Label>
-            <ComboBox prefWidth="150.0">
+            <ComboBox fx:id="room" prefWidth="150.0">
                <VBox.margin>
                   <Insets bottom="15.0" />
                </VBox.margin>
@@ -38,7 +38,7 @@
                   <Insets bottom="5.0" />
                </VBox.margin>
             </Label>
-            <DatePicker>
+            <DatePicker fx:id="date">
                <VBox.margin>
                   <Insets bottom="15.0" />
                </VBox.margin>
@@ -48,38 +48,38 @@
                   <Insets bottom="5.0" />
                </VBox.margin>
             </Label>
-            <TextField>
+            <ComboBox fx:id="from">
                <VBox.margin>
                   <Insets bottom="15.0" />
                </VBox.margin>
-            </TextField>
+            </ComboBox>
             <Label text="Til:">
                <VBox.margin>
                   <Insets bottom="5.0" />
                </VBox.margin>
             </Label>
-            <TextField>
+            <ComboBox fx:id="to">
                <VBox.margin>
                   <Insets bottom="15.0" />
                </VBox.margin>
-            </TextField>
+            </ComboBox>
             <Label text="Repetisjonsfrekvens:">
                <VBox.margin>
                   <Insets bottom="5.0" />
                </VBox.margin>
             </Label>
-            <TextField prefHeight="26.0" prefWidth="153.0">
+            <TextField fx:id="daysBetween" prefHeight="26.0">
                <VBox.margin>
                   <Insets bottom="15.0" />
                </VBox.margin>
             </TextField>
             <Label layoutX="80.0" layoutY="134.0" text="Dato:" />
-            <DatePicker layoutX="80.0" layoutY="225.0">
+            <DatePicker fx:id="toDate" layoutX="80.0" layoutY="225.0">
                <VBox.margin>
                   <Insets bottom="15.0" />
                </VBox.margin>
             </DatePicker>
-            <Button mnemonicParsing="false" text="Button" />
+            <Button mnemonicParsing="false" onAction="#submit" text="Button" />
          </children>
          <padding>
             <Insets bottom="70.0" left="70.0" right="70.0" top="70.0" />

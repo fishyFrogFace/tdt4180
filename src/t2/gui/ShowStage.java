@@ -1,14 +1,14 @@
-package t2;
+package t2.gui;
 
 import javafx.application.Application;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import t2.gui.exceptionhandling.ExceptionController;
 
 import java.io.IOException;
-import java.util.stream.IntStream;
 
-public class Appointment extends Application {
+public class ShowStage extends Application {
 
     private static Stage stage;
 
