@@ -7,12 +7,11 @@ import javafx.scene.control.ComboBox;
 import javafx.scene.control.DatePicker;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.BorderPane;
-import t2.gui.app.Appointment;
-import t2.gui.app.AppointmentBuilder;
+import t2.app.Appointment;
+import t2.app.AppointmentBuilder;
 
 import java.io.IOException;
 import java.sql.Time;
-import java.time.LocalTime;
 
 public class AppointmentController extends BorderPane {
 

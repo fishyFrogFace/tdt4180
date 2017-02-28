@@ -1,4 +1,4 @@
-package t2.gui.app;
+package t2.app;
 
 import java.sql.Time;
 import java.time.LocalDate;

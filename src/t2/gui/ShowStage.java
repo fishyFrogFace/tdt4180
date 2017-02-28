@@ -27,10 +27,6 @@ public class ShowStage extends Application {
 
     public static void changeScene(Parent parent) {
         stage.setScene(new Scene(parent, 300, 300));
-/*        StackTraceElement[] trace = Thread.currentThread().getStackTrace();
-        IntStream
-                .range(0, 10)
-                .forEach(k -> System.out.println(trace[k]));*/
         stage.show();
     }
 
