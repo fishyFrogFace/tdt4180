@@ -1,6 +1,6 @@
 package t2.app;
 
-import java.sql.Time;
+import java.util.Date;
 import java.time.LocalDate;
 
 public class AppointmentBuilder {
@@ -8,8 +8,8 @@ public class AppointmentBuilder {
     protected String purpose;
     protected String room;
     protected LocalDate date;
-    protected Time from;
-    protected Time to;
+    protected Date from;
+    protected Date to;
     protected Integer daysBetween;
     protected LocalDate toDate;
 
@@ -33,12 +33,12 @@ public class AppointmentBuilder {
         return this;
     }
 
-    public AppointmentBuilder withFromTime(Time from) {
+    public AppointmentBuilder withFromTime(Date from) {
         this.from = from;
         return this;
     }
 
-    public AppointmentBuilder withToTime(Time to) {
+    public AppointmentBuilder withToTime(Date to) {
         this.to = to;
         return this;
     }
