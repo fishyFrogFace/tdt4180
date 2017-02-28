@@ -22,6 +22,13 @@ public class Appointment {
         this.to = builder.to;
         this.daysBetween = builder.daysBetween;
         this.toDate = builder.toDate;
+        System.out.println("purpose: "+purpose+"\n"
+                +"room: "+room+"\n"
+                +"date: "+date+"\n"
+                +"from: "+from+"\n"
+                +"to: "+to+"\n"
+                +"daysBetween: "+daysBetween+"\n"
+                +"toDate: "+toDate+"\n");
     }
     
 

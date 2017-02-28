@@ -23,7 +23,7 @@ public class AppointmentBuilder {
         return this;
     }
 
-    public AppointmentBuilder withRoom(String emailSubject) {
+    public AppointmentBuilder withRoom(String room) {
         this.room = room;
         return this;
     }
